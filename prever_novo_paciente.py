@@ -49,7 +49,7 @@ predicted_cluster = model.predict(new_patient_scaled)
 cluster_profiles = {
     0: "ALERTA DE ALTO RISCO (Perfil: Idosos com Falha Renal, 62% Mortalidade)",
     1: "BAIXO RISCO (Perfil: Homens Não-Fumantes, 24% Mortalidade)",
-    2: "RISCO MÉDIO-BAIXO (Perfil: Mulheres, 29% Mortalidade)",
+    2: "RISCO MÉDIO-BAIXO (Perfil: Mulheres c/ Alta Incidência de Diabetes/Pressão Alta, 29% Mortalidade)",
     3: "RISCO MÉDIO (Perfil: Homens Fumantes, 26% Mortalidade)"
 }
 # --------------------------------------------------
