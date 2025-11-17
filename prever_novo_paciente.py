@@ -21,17 +21,17 @@ feature_names = [
 ]
 
 new_patient_data = [
-    19,  # age
-    0,   # anaemia (sim)
-    42, # creatinine_phosphokinase (normal)
-    0,   # diabetes (não)
-    30,  # ejection_fraction (baixa)
-    1,   # high_blood_pressure (sim)
-    100000, # platelets
-    2.5, # serum_creatinine (ALTO!)
-    132, # serum_sodium (BAIXO!)
-    1,   # sex (homem)
-    0    # smoking (não)
+    75.0,    # age
+    0.0,     # anaemia
+    582.0,   # creatinine_phosphokinase
+    0.0,     # diabetes
+    20.0,    # ejection_fraction
+    1.0,     # high_blood_pressure
+    265000.0,# platelets
+    1.9,     # serum_creatinine
+    130.0,   # serum_sodium
+    1.0,     # sex
+    0.0      # smoking
 ]
 
 new_patient_df = pd.DataFrame([new_patient_data], columns=feature_names)
